@@ -8,4 +8,10 @@ Minimal Alpine Linux Docker container with:
 * rsync
 * OpenSSH Client
 
+You can
+```shell
+docker pull matsya/node-rsync-ssh
+```
+to use it or check it out in [Docker Hub](https://hub.docker.com/r/matsya/node-rsync-ssh/)
+
 For questions, problems, suggestions, please get in touch through a [GitHub issue](https://github.com/yuriploc/docker-node-rsync-ssh/issues).
