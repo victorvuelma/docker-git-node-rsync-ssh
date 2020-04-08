@@ -1,5 +1,5 @@
 FROM node:alpine
-LABEL mantainer="Yuri Oliveira <yuri@matsya.io>"
+LABEL mantainer="Victor Vuelma <victorvuelma@outlook.com>"
 
-# Install rsync and openssh-client
-RUN apk --update --no-cache add rsync openssh-client
+# Install git, rsync and openssh-client
+RUN apk --update --no-cache add git rsync openssh-client
